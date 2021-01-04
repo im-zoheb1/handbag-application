@@ -1,0 +1,107 @@
+.dashboard {
+  background-color: #fdfdfd;
+  @include flex-row;
+  &__left {
+    min-width: 26rem;
+    box-shadow: 0 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: #fcfcfc;
+    overflow-y: auto;
+    @include respond(phone) {
+      display: none;
+    }
+  }
+  &__right {
+    background-color: #fff;
+    padding-top: 5rem;
+    width: 100%;
+    overflow-y: auto;
+    @include respond(phone) {
+      padding-top: 0;
+    }
+    &--inner {
+      padding: 4rem;
+      width: 100%;
+    }
+  }
+}
+
+.sidebar {
+  padding-top: 9rem;
+  &__profile {
+    padding: 2.5rem 2rem;
+    background-color: #fdfdfd;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  &__links {
+    &--item {
+      @include flex-row;
+      align-items: center;
+      padding: 1.7rem 2rem;
+      font-size: 1.7rem;
+      font-weight: 300;
+    }
+    &--icon {
+      margin-bottom: -7px;
+    }
+    &--text {
+      padding: 0 1rem;
+      letter-spacing: 1px;
+    }
+    &--active {
+      font-weight: 500;
+      background-color: #fff;
+    }
+  }
+}
+
+.d-trade {
+  &__nos {
+    @include flex-row;
+    justify-content: space-between;
+    padding: 1.5rem 0 1rem 0;
+  }
+  &__s,
+  &__no {
+    @include flex-row;
+  }
+  &__s--icon,
+  &__no--icon {
+    margin-right: 7px;
+  }
+  &__s--nos {
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+
+  &--search-bar {
+    margin: 2rem 0;
+    @include flex-row;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    align-items: center;
+    max-width: 50rem;
+    @include respond(phone) {
+      padding: 2px;
+      border-radius: 4px;
+    }
+    &__input {
+      border: none !important;
+      outline: none !important;
+      margin: 0 !important;
+    }
+    &__button {
+      background-color: $color-primary;
+      color: #fff;
+      font-weight: 500;
+      padding: 8px 2rem;
+      font-size: 1.7rem;
+      border-radius: 5px;
+      margin-right: 3px;
+    }
+  }
+  &__table {
+  }
+}

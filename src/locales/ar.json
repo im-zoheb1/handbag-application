@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "about": "حول",
+    "myaccount": {
+      "default": "حسابي",
+      "buying": "شراء",
+      "selling": "يبيع",
+      "profile": "الملف الشخصي",
+      "logout": "تسجيل خروج"
+    },
+    "admin": "مشرف",
+    "sell": "يبيع",
+    "search": "...بحث"
+  },
+  "footer": {
+    "blindtext": "النص الأعمى",
+    "amit": "اميت",
+    "brandnewsale": "بيع العلامة التجارية الجديدة",
+    "consectetur": "بناء",
+    "randomwords": "كلمات عشوائية",
+    "newsales": "مبيعات جديدة",
+    "ourratings": "التقييمات",
+    "graph": "رسم بياني",
+    "animals": "الحيوانات",
+    "rabbit": "أرنب",
+    "parrot": "ببغاء",
+    "alligator": "التمساح",
+    "crocodile": "تمساح"
+  },
+  "landing": {
+    "suggestedones": "منها المقترحة",
+    "popularbrands": "ماركات مشهورة",
+    "mostpopular": "الأكثر شعبية",
+    "more": "أكثر",
+    "view": "التحقق من"
+  },
+  "products": {
+    "default": "منتجات",
+    "retails": "تجارة التجزئة",
+    "types": "أنواع",
+    "prices": "الأسعار"
+  },
+  "productview": {
+    "title": "لوريم إيبسوم دولور اجلس أميت",
+    "lowestask": "أدنى سؤال",
+    "highestbid": "أعلى عرض",
+    "buy": "يشترى",
+    "sell": "يبيع",
+    "viewallbids": "عرض جميع العروض",
+    "viewallask": "عرض جميع الطلبات",
+    "condition": "شرط",
+    "productspecs": "مواصفات المنتج"
+  },
+  "buyform": {
+    "placebid": "تقديم عرض",
+    "buynow": "اشتري الآن"
+  },
+  "sellform": {
+    "placeask": "اسأل مكان",
+    "sellnow": "بيع الآن"
+  },
+  "placebid": {
+    "estimatedfee": "الرسوم التقديرية",
+    "deliverycharges": "رسوم التوصيل",
+    "vatline": "VAT خط",
+    "totalcharges": "الكلفة الاجماليه"
+  },
+  "buynow": {
+    "input": "لا توجد طلبات متاحة",
+    "buy": "يشترى"
+  },
+  "placeask": {
+    "input": "أدخل السؤال",
+    "transectionfee": "رسوم التحويل",
+    "paymentproc": "بروك الدفع.",
+    "estimatedshipping": "الشحن المقدر",
+    "vatline": "VAT خط",
+    "total": "مجموع"
+  },
+  "sellnow": {
+    "input": "لا تتوفر عروض",
+    "buy": "يشترى"
+  },
+  "buying": {
+    "purchasing": "شراء"
+  },
+  "selling": {
+    "sales": "مبيعات"
+  },
+  "profile": {
+    "profile": "الملف الشخصي",
+    "sellerlevel": "مستوى البائع",
+    "sales": "مبيعات",
+    "transectionfee": "رسوم التحويل",
+    "handbagstransectionfee": "رسوم تحويل حقائب اليد"
+  },
+  "adminsidebar": {
+    "products": "منتجات",
+    "buyerssellers": "المشترون والبائعون",
+    "orders": "طلب",
+    "bidsasks": "العطاءات والطلبات",
+    "settings": "الإعدادات",
+    "logout": "تسجيل خروج"
+  },
+  "buyerssellers": {
+    "buyers": "المشترون",
+    "sellers": "الباعة"
+  },
+  "orders": {
+    "pending": "قيد الانتظار",
+    "approved": "وافق"
+  },
+  "bidsasks": {
+    "bids": "العطاءات",
+    "asks": "يطلب"
+  },
+  "searchtosell": {
+    "chooseaproduct": "اختر منتجًا",
+    "findproduct": "ابحث عن المنتج الذي تبحث عنه للمتابعة",
+    "search": "...بحث"
+  }
+}

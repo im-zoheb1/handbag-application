@@ -1,0 +1,43 @@
+.register {
+  padding-top: 15rem;
+  &--inner {
+    margin: 0 auto;
+    max-width: 40rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  &--tabs {
+    @include flex-row;
+  }
+  &--tab {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    &__active {
+      color: $color-dark-bg;
+      border-bottom: 2px solid $color-dark-bg;
+    }
+  }
+}
+
+.agree-terms {
+  @include flex-row;
+  align-items: flex-start;
+  & .do-you-accept {
+    padding-left: 1rem;
+  }
+}
+
+.login,
+.signup {
+  padding: 1rem;
+}

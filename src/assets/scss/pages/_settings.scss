@@ -1,0 +1,57 @@
+.settings {
+  padding-top: 2rem;
+  color: #555;
+  &--header {
+    font-size: 3.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+  &--headings {
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    span:first-child {
+      padding-right: 5px;
+    }
+    & .edit-link {
+      color: $color-primary;
+      font-size: 1.3rem;
+      vertical-align: text-top;
+      cursor: pointer;
+    }
+  }
+
+  &--attr {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    max-width: 70rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    &__item {
+      flex-basis: 233px;
+      padding-bottom: 1.5rem;
+    }
+    &__heading {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding-bottom: 0.5rem;
+    }
+    &__text {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+  }
+  &--infos {
+    &__item {
+      padding: 1.7rem 0;
+    }
+    &__text {
+      font-size: 1.6rem;
+      word-spacing: 60%;
+    }
+  }
+}

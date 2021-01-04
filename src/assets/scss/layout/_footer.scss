@@ -1,0 +1,38 @@
+.footer {
+  letter-spacing: 1px;
+  background-color: $color-dark-bg;
+  color: #f2f2f2;
+  &__top {
+    padding: 4.5rem 0 3.5rem;
+    @include flex-between;
+    @include respond(phone) {
+      @include flex-column;
+      justify-content: flex-start;
+    }
+    border-bottom: 1px solid rgba(#f2f2f2, 0.1);
+  }
+
+  &__list {
+    list-style-type: none;
+    max-width: 17rem;
+    width: 100%;
+    @include respond(phone) {
+      padding-bottom: 3.5rem;
+    }
+    &--title {
+      font-weight: 600;
+      padding-bottom: 2.5rem;
+      font-size: 1.6rem;
+    }
+    &--item {
+      line-height: 150%;
+      padding-bottom: 0.3rem;
+      font-size: 1.5rem;
+    }
+  }
+  &__bottom {
+    @include flex-between;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+  }
+}

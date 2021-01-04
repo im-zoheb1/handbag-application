@@ -1,0 +1,36 @@
+.profile {
+  color: #444;
+  &--heading {
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  &--level {
+    margin-top: 4rem;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  &--transections {
+    margin-top: 4rem;
+    @include flex-row;
+    flex-wrap: wrap;
+    &__tab {
+      padding-right: 1.5rem;
+      &:not(:last-child) {
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+      }
+      &:not(:first-child) {
+        padding-left: 1.5rem;
+      }
+    }
+    &__sub {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #555;
+    }
+    &__no {
+      font-size: 3.3rem;
+      padding-top: 1rem;
+    }
+  }
+}

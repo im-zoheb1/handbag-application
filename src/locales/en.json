@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "about": "about",
+    "myaccount": {
+      "default": "my account",
+      "buying": "Buying",
+      "selling": "Selling",
+      "profile": "Profile",
+      "logout": "Logout"
+    },
+    "admin": "admin",
+    "sell": "sell",
+    "search": "search..."
+  },
+  "footer": {
+    "blindtext": "Blind Text",
+    "amit": "Amit",
+    "brandnewsale": "Brand New Sale",
+    "consectetur": "Consectetur",
+    "randomwords": "Random Words",
+    "newsales": "New Sales",
+    "ourratings": "Ratings",
+    "graph": "Graph",
+    "animals": "Animals",
+    "rabbit": "Rabbit",
+    "parrot": "Parrot",
+    "alligator": "Alligator",
+    "crocodile": "Crocodile"
+  },
+  "landing": {
+    "suggestedones": "Suggested Ones",
+    "popularbrands": "Popular Brands",
+    "mostpopular": "Most Popular",
+    "more": "More",
+    "view": "View"
+  },
+  "products": {
+    "default": "Products",
+    "retails": "Retails",
+    "types": "Types",
+    "prices": "Prices"
+  },
+  "productview": {
+    "title": "Lorem Ipsum Dolor Sit Amit",
+    "lowestask": "Lowest Ask",
+    "highestbid": "Highest Bid",
+    "buy": "buy",
+    "sell": "sell",
+    "viewallbids": "View All Bids",
+    "viewallask": "View All Asks",
+    "condition": "Condition",
+    "productspecs": "Product Specs"
+  },
+  "buyform": {
+    "placebid": "place bid",
+    "buynow": "buy now"
+  },
+  "sellform": {
+    "placeask": "place ask",
+    "sellnow": "sell now"
+  },
+  "placebid": {
+    "estimatedfee": "Estimated Fee",
+    "deliverycharges": "Delivery Charges",
+    "vatline": "VAT Line",
+    "totalcharges": "Total Charges"
+  },
+  "buynow": {
+    "input": "No Asks Available"
+  },
+  "placeask": {
+    "input": "Enter Ask",
+    "transectionfee": "Transection Fee",
+    "paymentproc": "Payment Proc.",
+    "estimatedshipping": "Estimated Shipping",
+    "vatline": "VAT Line",
+    "total": "Total"
+  },
+  "sellnow": {
+    "input": "No Bids Available",
+    "buy": "Buy"
+  },
+  "buying": {
+    "purchasing": "Purchasing"
+  },
+  "selling": {
+    "sales": "Sales"
+  },
+  "profile": {
+    "profile": "Profile",
+    "sellerlevel": "Seller Level",
+    "sales": "SALES",
+    "transectionfee": "TRANSECTION FEE",
+    "handbagstransectionfee": "HANDBAGS TRANSECTION FEE"
+  },
+  "adminsidebar": {
+    "products": "Products",
+    "buyerssellers": "Buyers & Sellers",
+    "orders": "Orders",
+    "bidsasks": "Bids & Asks",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "buyerssellers": {
+    "buyers": "Buyers",
+    "sellers": "Sellers"
+  },
+  "orders": {
+    "pending": "Pending",
+    "approved": "Approved"
+  },
+  "bidsasks": {
+    "bids": "Bids",
+    "asks": "Asks"
+  },
+  "searchtosell": {
+    "chooseaproduct": "Choose a product",
+    "findproduct": "Find the product you're looking for to continue",
+    "search": "Search..."
+  }
+}

@@ -1,0 +1,38 @@
+@mixin flex-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tabPort {
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tabLand {
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == bigDesktop {
+    @media (min-width: 112.5em) {
+      @content;
+    }
+  }
+}

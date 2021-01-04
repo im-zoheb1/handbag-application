@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  // font-size: 10px;
+  font-family: 'Muli', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+html {
+  // this defines what 1 rem is :
+  font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
+  @include respond(tabLand) {
+    // width < 900?
+    font-size: 56.25%; // 1rem = 9px, 9/16 = 50%
+  }
+
+  @include respond(tabPort) {
+    // width < 600?
+    font-size: 50%; // 1rem = 8px, 8/15 = 50%
+  }
+
+  @include respond(bigDesktop) {
+    font-size: 75%; // 1rem = 12, 12/16
+  }
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: $bg-color-white;
+  text-rendering: optimizeLegibility;
+  @include respond(tabPort) {
+  }
+}

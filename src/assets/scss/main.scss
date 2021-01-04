@@ -1,0 +1,38 @@
+// ABSTRACTS
+@import './abstracts/variables';
+@import './abstracts/mixins';
+@import './abstracts/functions';
+
+// BASE
+@import './base/animations';
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';
+
+// LAYOUT
+@import './layout/header';
+@import './layout/footer';
+@import './layout/register';
+
+// PAGES
+@import './pages/landing';
+@import './pages/products';
+@import './pages/productview';
+@import './pages/buysell';
+@import './pages/dashboard';
+@import './pages/admin';
+@import './pages/profile';
+@import './pages/searchtosell';
+@import './pages/settings';
+
+// COMPONENTS
+@import './components/logo';
+@import './components/navbar';
+@import './components/button';
+@import './components/productcard';
+@import './components/bidform';
+@import './components/buyform';
+@import './components/model';
+@import './components/forms';
+@import './components/pagination';
+@import './components/vuematerial';

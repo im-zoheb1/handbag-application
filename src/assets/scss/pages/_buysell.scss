@@ -1,0 +1,182 @@
+.trade {
+  @include flex-row;
+  padding-top: 12rem;
+  padding-bottom: 7rem;
+  @include respond(phone) {
+    padding-top: 3rem;
+    flex-direction: column-reverse;
+  }
+}
+
+.buysell {
+  width: 100%;
+  margin: 0 2rem;
+  padding: 0 2rem;
+  max-width: 47rem;
+  @include respond(phone) {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  &--title {
+    font-size: 2.4rem;
+    padding: 0rem 0.4rem 1rem;
+  }
+  &--form {
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 3rem;
+  }
+  &--tabs {
+    @include flex-row;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  &--tab {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #555;
+    &:last-child {
+      border-left: 1px solid transparent;
+    }
+    &__active {
+      background-color: rgba($color-secondary, 0.8);
+      color: #fff;
+    }
+  }
+  &--add-details {
+    margin-top: 2rem;
+    padding: 0 3rem;
+    &__item {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      color: #777;
+      .material-icons {
+        font-size: 18px;
+      }
+      &-text {
+        font-size: 1.5rem;
+        padding-left: 1.2rem;
+        font-weight: 400;
+      }
+      .material-icons:last-child {
+        margin-left: auto;
+        cursor: pointer;
+      }
+    }
+  }
+  &--pay-method {
+    padding-top: 2rem;
+    &__title {
+      font-size: 3.5rem;
+      font-weight: 700;
+    }
+    &__sub-title {
+      margin-top: 1.5rem;
+      color: #888;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.6rem;
+    }
+    &__methods {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      margin-top: 1.5rem;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      padding: 0 1rem;
+      color: #555;
+      font-weight: 500;
+      &:last-child {
+        cursor: pointer;
+      }
+      .material-icons {
+        color: #777;
+        margin-left: auto;
+      }
+      img {
+        height: 50px;
+      }
+    }
+    &__method {
+      margin-right: 1rem;
+    }
+    &__card {
+    }
+    &__card-label {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 4rem 0;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      padding: 1.5rem 7px;
+      border-radius: 4px;
+      background-color: #eee;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #777;
+      .material-icons:last-child {
+        margin-left: auto;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+      }
+    }
+    &__card-icon {
+      padding: 5px;
+      margin-bottom: -4px;
+      .material-icons {
+        color: #777 !important;
+        font-size: 20px;
+      }
+    }
+    &__card-form {
+    }
+    &__form-label {
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: #555;
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+    }
+    &__input {
+      width: 100%;
+      input {
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding: 15px !important;
+      }
+      &.multiple {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        input {
+          width: 100%;
+          min-width: 0;
+        }
+        input:not(:last-child) {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  &--buttons {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .btn {
+      padding: 8px 16px;
+    }
+  }
+}

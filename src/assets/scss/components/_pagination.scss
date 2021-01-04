@@ -1,0 +1,32 @@
+// pagination
+.pagination {
+  width: 100%;
+  &--list {
+    @include flex-row;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    list-style: none;
+    justify-content: center;
+  }
+  &--item {
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: 2px;
+    transition: background-color 0.2s ease-in;
+    cursor: pointer;
+    & span {
+      margin: auto;
+    }
+    &:hover {
+      background-color: $color-primary;
+      color: #f2f2f2;
+    }
+  }
+  &--active {
+    background-color: $color-primary;
+    color: #f2f2f2;
+  }
+}

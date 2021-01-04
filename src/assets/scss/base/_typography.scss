@@ -1,0 +1,11 @@
+.heading--primary {
+  font-size: 2.2rem;
+  color: $color-dark-bg;
+  text-align: center;
+  padding: 1.4rem;
+  font-weight: 500;
+  @include respond(phone) {
+    text-align: left;
+    font-size: 2rem;
+  }
+}

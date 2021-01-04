@@ -1,0 +1,57 @@
+.btn {
+  padding: 0.5rem 1.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn--navbar {
+  border: 2px solid $bg-color;
+  color: $bg-color;
+  @include respond(phone) {
+    border: 2px solid $color-text;
+    color: $color-text;
+  }
+}
+
+.btn--lighten {
+  border: 2px solid $color-text;
+  color: $color-text;
+}
+
+.btn--darken {
+  border: 2px solid $color-text;
+  color: $color-text;
+}
+
+.btn--large {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.btn--primary {
+  border: 2px solid #3e2768;
+  background-color: #3e2768;
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.btn--blue {
+  background-color: $color-primary;
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  padding: 7px 12px;
+}
+
+.btn--red {
+  background-color: hsl(0, 57%, 50%);
+  color: #ffff;
+  font-weight: 700;
+  padding: 7px 12px;
+  font-size: 1.4rem;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}

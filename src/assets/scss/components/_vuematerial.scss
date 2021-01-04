@@ -1,0 +1,52 @@
+.md-table {
+}
+.md-table-head {
+  color: darken($color-primary, 10%);
+}
+.md-table-cell {
+  border-top: 1px solid rgba(#000, 0.1) !important;
+}
+.md-active {
+  color: darken($color-primary, 10%);
+  border-bottom: 3px solid darken($color-primary, 10%);
+}
+.md-tabs {
+}
+.md-tab {
+  min-width: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.md-checkbox {
+  border: 2px solid rgba($color-text, 0.1);
+}
+.md-toolbar {
+}
+.md-field {
+  border-bottom: 1px solid rgba($color-dark-bg, 0.3);
+  margin-bottom: 0;
+  padding: 0;
+  .md-input {
+    margin: 0;
+  }
+}
+.md-table-alternate-header {
+  color: #fff;
+  background-color: darken($color-primary, 10%);
+  & .md-toolbar {
+    padding: 1rem 2rem;
+  }
+  & .md-icon {
+    color: white;
+  }
+}
+.md-content.md-table-content {
+  height: auto;
+  max-height: 30rem;
+}
+.md-checkbox.md-checked {
+  background-color: $color-primary;
+}
+.md-table-cell-selection .md-checkbox .md-checkbox-container::after {
+  border-color: #fff !important;
+}

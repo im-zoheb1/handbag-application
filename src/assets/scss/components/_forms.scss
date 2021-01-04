@@ -1,0 +1,81 @@
+.social-media-label {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 3px;
+  @include flex-row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 3px;
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
+  &-icon {
+    font-size: 2.3rem;
+    ion-icon {
+      padding: 0.8rem;
+      margin-bottom: -4px;
+    }
+  }
+  &.twitter {
+    background: #1a98d0;
+  }
+  &.facebook {
+    background: #2a4887;
+  }
+}
+
+.or-divider {
+  width: 100%;
+  @include flex-row;
+  align-items: center;
+  &-line {
+    background: rgba(0, 0, 0, 0.2);
+    height: 1px;
+    width: 100%;
+  }
+  &-text {
+    padding: 1rem;
+  }
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 3px;
+  font-family: inherit;
+  padding: 1.2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.other-way-login {
+  color: $color-primary;
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+.register-btn {
+  padding: 1.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  background-color: $color-primary;
+  color: #fff;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.do-you-accept {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.highlighting-text-form {
+  color: $color-primary;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
